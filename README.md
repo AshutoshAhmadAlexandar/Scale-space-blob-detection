@@ -1,4 +1,4 @@
-# Homography
+# Scale-space blob detection
 1. Generate a Laplacian of Gaussian filter.
 2. Build a Laplacian scale space, starting with some initial scale and going for n iterations:
 (a) Filter image with scale-normalized Laplacian at current scale. (b) Save square of Laplacian response for current level of scale space.
